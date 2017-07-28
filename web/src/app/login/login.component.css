@@ -1,0 +1,22 @@
+.todoapp {
+	margin-top: 30%;
+}
+
+.btn-authentication {
+	width:33%;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    border : 1px solid;
+    min-width: 100px;
+    margin: 30px 35%;
+    display: block;
+}
+
+input {
+	width: 30%;
+    margin: 30px 35%;
+    display: block;
+    padding: 10px;
+}

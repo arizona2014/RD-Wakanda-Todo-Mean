@@ -1,3 +1,12 @@
-<p>
-  login works!
-</p>
+<section class="todoapp">
+    <section class="main">
+        <input class="new-todo" placeholder="Your Name ...  " 
+               autofocus="" [(ngModel)]="name">
+
+        <input class="new-todo" placeholder="Your Password ...  "
+               autofocus="" [(ngModel)]="password" type="password">
+    </section>
+    <button class="btn-authentication" (click)="login()" [disabled]="!name || !password">
+        Login
+    </button>
+</section>

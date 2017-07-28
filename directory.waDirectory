@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><directory>
 	<group ID="01000000000000000000000000000000" name="Admin">	</group>
+	<group ID="7329E0C42A38FD4C84E49E3734C50F38" name="todoUsers">
+		<include user="jane.doe" userID="8C0D503B8FDDEF429106ED603209FFA1"/>
+		<include user="john.doe" userID="C48B621B4CDC7140AF42EF1DF04943B4"/>
+	</group>
 	<user ID="8C0D503B8FDDEF429106ED603209FFA1" name="jane.doe" fullName="Jane Doe" password="3856d3b7cfaddd3119d915f7c3e92543"/>
 	<user ID="C48B621B4CDC7140AF42EF1DF04943B4" name="john.doe" fullName="John Doe" password="6ac127547e1657a84b5d7a1a20e3fb88"/>
 </directory>
