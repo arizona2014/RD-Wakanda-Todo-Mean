@@ -1,0 +1,22 @@
+2017-07-28 21:57:22 [wakanda.supervisor] INFO - solution closed
+2017-07-28 21:57:22 [wakanda] INFO - Opens the solution "C:\Users\Arizona\Documents\Wakanda\solutions\todo\app.waSolution" for running
+2017-07-28 21:57:22 [wakanda.todo] INFO - Users and groups directory opened
+2017-07-28 21:57:22 [wakanda.todo.backend] INFO - Datastore opened
+2017-07-28 21:57:22 [wakanda.todo.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-07-28 21:57:22 [wakanda.todo.backend] INFO - "backend" project opened
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-07-28 21:57:23 [wakanda.todo] INFO - "todo" solution opened
+2017-07-28 21:57:23 [wakanda] INFO - Starts "todo" solution
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - HTTP Server started
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - "ServerAdmin" project started
+2017-07-28 21:57:23 [wakanda.todo.backend] INFO - HTTP Server started
+2017-07-28 21:57:23 [wakanda.todo.backend] INFO - "backend" project started
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-07-28 21:57:23 [wakanda.todo.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-07-28 21:57:23 [wakanda.todo.backend] INFO - Executes the bootstrap file(s)
+2017-07-28 21:57:23 [wakanda.todo.backend] INFO - Bootstrap file(s) executed
+2017-07-28 21:57:23 [wakanda.todo] INFO - "todo" solution started
+2017-07-28 21:57:23 [wakanda] INFO - "todo" solution has been successfully opened for running (duration: 608 ms)
+2017-07-28 21:57:23 [wakanda.supervisor] INFO - solution opened
