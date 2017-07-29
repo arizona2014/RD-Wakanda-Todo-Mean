@@ -1,1 +1,80 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "2",        "classes": {        },        "model": {            "scriptMode": "manual"        }    },    "dataClasses": []}
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Todo": {
+				"panelColor": "#76923C",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Todo": {
+					"events": "Todo/Todo-events.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Todo",
+			"className": "Todo",
+			"collectionName": "TodoCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "label",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "completed",
+					"kind": "storage",
+					"matchColumn": "complete",
+					"scope": "public",
+					"type": "bool"
+				},
+				{
+					"name": "userID",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			],
+			"events": [
+				{
+					"kind": "save",
+					"from": "$mainModel.Todo.events.save",
+					"userDefined": true
+				},
+				{
+					"kind": "restrict",
+					"from": "$mainModel.Todo.events.restrict",
+					"userDefined": true
+				}
+			]
+		}
+	],
+	"publishAsJSGlobal": true
+}
